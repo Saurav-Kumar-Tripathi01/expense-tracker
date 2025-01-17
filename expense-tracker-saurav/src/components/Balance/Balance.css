@@ -1,0 +1,11 @@
+.balance-container {
+    background-color: #626262;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 40px;
+    border-radius: 30px;
+}
+.balance-container > .left {
+    display: flex;
+    gap: 40px;
+}

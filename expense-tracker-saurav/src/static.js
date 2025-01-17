@@ -1,0 +1,1 @@
+export const expense_category = ["food", "entertainment", "travel"];

@@ -1,0 +1,53 @@
+.add-balance-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(255, 255, 255, 0); */
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-balance-container > .add-balance {
+    background-color: #ececec;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+.add-balance-container > .add-balance > h1 {
+    color: black;
+}
+.add-balance-container > .add-balance > form {
+    display: flex;
+    gap: 10px;
+}
+.add-balance-container > .add-balance > form > input {
+    font-size: 17px;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 7px 8px rgb(104, 104, 104);
+    color: black;
+}
+.add-balance-container > .add-balance > form > input:focus {
+    outline: none;
+}
+.add-balance-container > .add-balance > form > button {
+    font-size: 17px;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    box-shadow: 0 7px 8px rgb(104, 104, 104);
+    cursor: pointer;
+}
+.add-balance-container > .add-balance > form > button.add-btn {
+    background-color: #f4bb4a;
+}
+.add-balance-container > .add-balance > form > button.cancle-btn {
+    background-color: #e2e2e2;
+    color: black;
+}

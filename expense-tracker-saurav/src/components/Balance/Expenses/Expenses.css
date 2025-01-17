@@ -1,0 +1,25 @@
+.expenses-container {
+    background-color: #9b9b9b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 35px 25px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.expenses-container > .expenses > span {
+    color: #f4bb4a;
+}
+
+.expenses-container > button {
+    background: linear-gradient(#ff8e8e, #ff3d3d);
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}

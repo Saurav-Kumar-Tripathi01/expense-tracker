@@ -1,0 +1,20 @@
+.main-container {
+  padding: 30px 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.expense-tracker {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.data-rendering {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
